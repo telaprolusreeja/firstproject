@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(220, 20, 20);
+        }
+        .container{
+            background-color: rgb(0, 255, 251);
+            width: 38%;
+            margin: auto;
+            padding: 2% 3%;
+            border-radius: 20px;
+        }
+        .form-field input,.form-field select{
+            width: 90%;
+            padding: 10px;
+        }
+        btton{
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 45%;
+            border-radius: 10px;
+            font: size 1.3ren
+        }
+        @media (max-width:436px){
+            .container{
+                flex-direction: column;
+                width: 90;
+                height: 100%;
+            }
+        }
+        .login-section, .welcome-selection{
+            width: 90%;
+            padding: 30px;
+        }
+        .welcome-selection{
+            padding: 40px 20px;
+        }
+        input[type="text"],input[type="password"],
+        button,.remember-links{
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <form class="container" action="./login.html>"
+        h1 class="title">register</h1>
+    <p class="form-field">
+        <input type="text"
+        placeholder="enter your name"/>
+        </p>
+    <p class="form-field">
+        <input type="email"
+        placeholder="enter email id"/>
+    </p>
+    <p class="form-field">
+            <input type="pasowrd"
+            placeholder="enter your password"/>
+           </p>
+        <p class="form-field">
+            <input type="radio"name="gender"/>male
+            <input type="radio"name="gender"/>female
+            </p>
+            <p class="form-field">
+                <input type="date"
+placeholder="enter date of birth"/>
+</p>
+<p class="form-field">
+    <select>
+        <option value="">select your state</option>
+        <option value="">AP</option>
+        <option value="">TS</option>
+        <option value="">DL</option>
+        <option value="">HR</option>
+    </p>
+    <p class="form-field">
+        <input type="file">
+        </p>
+        <button>submit</button>
+         </body>
+          </html>        
